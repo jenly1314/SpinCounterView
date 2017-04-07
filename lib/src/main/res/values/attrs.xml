@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpinCounterView">
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="labelTextSize" format="dimension"/>
+        <attr name="labelTextColor" format="color"/>
+        <attr name="labelText" format="string"/>
+        <attr name="normalColor" format="color"/>
+        <attr name="progressColor" format="color"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="startAngle" format="integer"/>
+        <attr name="sweepAngle" format="integer"/>
+        <attr name="scaleAngle" format="integer"/>
+        <attr name="max" format="float"/>
+        <attr name="progress" format="float"/>
+        <attr name="maxValue" format="float"/>
+        <attr name="space" format="dimension"/>
+        <attr name="arrow" format="dimension"/>
+        <attr name="duration" format="integer"/>
+        <attr name="textOffset" format="dimension"/>
+        <attr name="showText" format="boolean"/>
+        <attr name="showLabelText" format="boolean"/>
+    </declare-styleable>
+
+</resources>
