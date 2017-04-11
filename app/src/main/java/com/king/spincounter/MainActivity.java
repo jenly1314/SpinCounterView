@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.king.view.SpinCounterView;
+import com.king.view.spincounterview.SpinCounterView;
 
 import java.util.Random;
 

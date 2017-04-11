@@ -22,7 +22,7 @@
      FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
      DEALINGS IN THE SOFTWARE.
  */
-package com.king.view;
+package com.king.view.spincounterview;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -37,6 +37,7 @@ import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
 import android.view.View;
+
 /**
  * @author Jenly <a href="mailto:jenly1314@gmail.com">Jenly</a>
  * @since 2017/4/5
@@ -172,7 +173,7 @@ public class SpinCounterView extends View {
 
         mPaint = new Paint();
 
-        TypedArray a = context.obtainStyledAttributes(attrs,R.styleable.SpinCounterView);
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.SpinCounterView);
 
 
         mLabelTextSize = a.getDimension(R.styleable.SpinCounterView_android_textSize,TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP,16,getDisplayMetrics()));

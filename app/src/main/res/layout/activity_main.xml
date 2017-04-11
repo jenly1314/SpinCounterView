@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.king.spincounter.MainActivity">
 
-    <com.king.view.SpinCounterView
+    <com.king.view.spincounterview.SpinCounterView
         android:id="@+id/scv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
