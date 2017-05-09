@@ -12,7 +12,7 @@ SpinCounterView for Android 一个类似码表变化的旋转计数器动画控�
 ## 引入
 
 ### Maven：
-```
+```maven
 <dependency>
   <groupId>com.king.view</groupId>
   <artifactId>spincounterview</artifactId>
@@ -21,16 +21,16 @@ SpinCounterView for Android 一个类似码表变化的旋转计数器动画控�
 </dependency>
 ```
 ### Gradle:
-```
+```gradle
 compile 'com.king.view:spincounterview:1.1.0'
 ```
 ### Lvy:
-```
+```lvy
 <dependency org='com.king.view' name='spincounterview' rev='1.1.0'>
   <artifact name='$AID' ext='pom'></artifact>
 </dependency>
 ```
-###### 如果Gradle出现compile失败的情况，可以在Project的build.gradle里面添加如下：（也通过可以使用上面的GitPack来complie）
+###### 如果Gradle出现compile失败的情况，可以在Project的build.gradle里面添加如下：（也可以使用上面的GitPack来complie）
 ```gradle
 allprojects {
     repositories {
