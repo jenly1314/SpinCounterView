@@ -225,14 +225,14 @@ public class SpinCounterView extends View {
         int width = measureHandler(widthMeasureSpec,defaultWidth);
         int height = measureHandler(heightMeasureSpec,defaultHeight);
 
-        setMeasuredDimension(width,height);
         //圆心坐标
-        mCircleCenterX = (getWidth() + getPaddingLeft() - getPaddingRight())/ 2.0f;
-        mCircleCenterY = (getHeight() + getPaddingTop() - getPaddingBottom())/ 2.0f;
+        mCircleCenterX = (width + getPaddingLeft() - getPaddingRight())/ 2.0f;
+        mCircleCenterY = (height + getPaddingTop() - getPaddingBottom())/ 2.0f;
 
         //半径
-        mRadius = (getWidth()- getPaddingLeft() - getPaddingRight()) / 2.0f - mSpace;
+        mRadius = (width- getPaddingLeft() - getPaddingRight()) / 2.0f - mSpace;
 
+        setMeasuredDimension(width,height);
     }
 
     private int measureHandler(int measureSpec,int defaultSize){

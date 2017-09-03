@@ -16,17 +16,17 @@ SpinCounterView for Android 一个类似码表变化的旋转计数器动画控�
 <dependency>
   <groupId>com.king.view</groupId>
   <artifactId>spincounterview</artifactId>
-  <version>1.1.0</version>
+  <version>1.1.1</version>
   <type>pom</type>
 </dependency>
 ```
 ### Gradle:
 ```
-compile 'com.king.view:spincounterview:1.1.0'
+compile 'com.king.view:spincounterview:1.1.1'
 ```
 ### Lvy:
 ```
-<dependency org='com.king.view' name='spincounterview' rev='1.1.0'>
+<dependency org='com.king.view' name='spincounterview' rev='1.1.1'>
   <artifact name='$AID' ext='pom'></artifact>
 </dependency>
 ```
