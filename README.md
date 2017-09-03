@@ -16,19 +16,27 @@ SpinCounterView for Android 一个类似码表变化的旋转计数器动画控�
 <dependency>
   <groupId>com.king.view</groupId>
   <artifactId>spincounterview</artifactId>
-  <version>1.1.1</version>
+  <version>1.1.0</version>
   <type>pom</type>
 </dependency>
 ```
 ### Gradle:
 ```
-compile 'com.king.view:spincounterview:1.1.1'
+compile 'com.king.view:spincounterview:1.1.0'
 ```
 ### Lvy:
 ```
-<dependency org='com.king.view' name='spincounterview' rev='1.1.1'>
+<dependency org='com.king.view' name='spincounterview' rev='1.1.0'>
   <artifact name='$AID' ext='pom'></artifact>
 </dependency>
+```
+###### 如果Gradle出现compile失败的情况，可以在Project的build.gradle里面添加如下：（也可以使用上面的GitPack来complie）
+```gradle
+allprojects {
+    repositories {
+        maven { url 'https://dl.bintray.com/jenly/maven' }
+    }
+}
 ```
 
 ## 示例
@@ -53,11 +61,15 @@ spinCounterView.showAnimation(80);
 
    Email: jenly1314@gmail.com / jenly1314@vip.qq.com
 
-   CSDN: http://www.csdn.net/jenly121
+   CSDN: http://blog.csdn.net/jenly121
 
    Github: https://github.com/jenly1314
 
    微信公众号:
 
    ![公众号](http://olambmg9j.bkt.clouddn.com/jenly666.jpg)
+
+   加入QQ群: [20867961](http://shang.qq.com/wpa/qunwpa?idkey=8fcc6a2f88552ea44b1411582c94fd124f7bb3ec227e2a400dbbfaad3dc2f5ad)
+
+
 
