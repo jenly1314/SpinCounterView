@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php)
 [![Blog](https://img.shields.io/badge/blog-Jenly-9933CC.svg)](http://blog.csdn.net/jenly121)
 
-SpinCounterView for Android 一个类似码表变化的旋转计数器动画控件（仿2345贷款App金额进度变动）。
+SpinCounterView for Android 一个类似码表变化的旋转计数器动画控件。
 
 ## Gif 展示
 ![Image](GIF.gif)
