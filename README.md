@@ -60,7 +60,7 @@ spinCounterView.showAnimation(80);
 ```
 
 ## 赞赏
-如果您喜欢SuperTextView，或感觉SuperTextView帮助到了您，可以点右上角“Star”支持一下，您的支持就是我的动力，谢谢 :smiley:<p>
+如果您喜欢SpinCounterView，或感觉SpinCounterView帮助到了您，可以点右上角“Star”支持一下，您的支持就是我的动力，谢谢 :smiley:<p>
 也可以扫描下面的二维码，请作者喝杯咖啡 :coffee:
     <div>
         <img src="https://image-1252383324.cos.ap-guangzhou.myqcloud.com/pay/wxpay.png" width="280" heght="350">
