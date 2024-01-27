@@ -33,9 +33,7 @@ SpinCounterView for Android 一个类似码表变化的旋转计数器动画控�
 
 ## 使用
 
-### 布局示例
-
-布局
+布局示例
 ```Xml
     <com.king.view.spincounterview.SpinCounterView
         android:id="@+id/scv"
@@ -45,12 +43,13 @@ SpinCounterView for Android 一个类似码表变化的旋转计数器动画控�
         app:maxValue="1000"/>
 ```
 
-### 代码示例
-
-核心动画代码
+代码示例
 ```Java
+// 显示动画
 spinCounterView.showAnimation(80);
 ```
+
+更多使用详情，请查看[app](app)中的源码使用示例或直接查看[API帮助文档](https://jitpack.io/com/github/jenly1314/SpinCounterView/latest/javadoc/)
 
 ## 赞赏
 如果您喜欢SpinCounterView，或感觉SpinCounterView帮助到了您，可以点右上角“Star”支持一下，您的支持就是我的动力，谢谢 :smiley:
